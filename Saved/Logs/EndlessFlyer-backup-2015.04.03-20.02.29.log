@@ -1,0 +1,1011 @@
+﻿Log file open, 04/02/15 14:56:38
+LogInit:Display: Running engine for game: EndlessFlyer
+LogInit: Version: 4.7.4-2497108+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 31 2015 09:40:25
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/EpicGames/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.02-19.56.38:189][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.04.02-19.56.38:224][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.02-19.56.38:243][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.02-19.56.38:256][  0]LogInit: Object subsystem initialized
+[2015.04.02-19.56.38:261][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.02-19.56.38:261][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.02-19.56.38:267][  0]LogInit: Computer: WHEATLEY
+[2015.04.02-19.56.38:267][  0]LogInit: User: Alejandro
+[2015.04.02-19.56.38:267][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.04.02-19.56.38:268][  0]LogInit: High frequency timer resolution =2.338337 MHz
+[2015.04.02-19.56.38:268][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2015.04.02-19.56.38:268][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.02-19.56.38:268][  0]LogMemory: Process Physical Memory: 45.89 MB used, 45.89 MB peak
+[2015.04.02-19.56.38:268][  0]LogMemory: Process Virtual Memory: 24.46 MB used, 24.47 MB peak
+[2015.04.02-19.56.38:268][  0]LogMemory: Physical Memory: 4044.12 MB used, 6045.10 MB total
+[2015.04.02-19.56.38:268][  0]LogMemory: Virtual Memory: 288.60 MB used, 134217728.00 MB total
+[2015.04.02-19.56.38:353][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.04.02-19.56.38:354][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.04.02-19.56.38:374][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 720M    (Feature Level 11_0)
+[2015.04.02-19.56.38:374][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.04.02-19.56.38:375][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.02-19.56.38:375][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.02-19.56.38:375][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.02-19.56.38:381][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.02-19.56.38:396][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.02-19.56.38:458][  0]LogTextLocalizationManager: The requested culture ('en') has no localization data; parent culture's ('es') localization data will be used.
+[2015.04.02-19.56.38:568][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/EpicGames/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/EpicGames/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.02-19.56.38:568][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/EpicGames/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/EpicGames/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.02-19.56.38:669][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.02-19.56.42:045][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.02-19.56.42:947][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.02-19.56.43:020][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.02-19.56.43:071][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Alejandro/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.02-19.56.43:071][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alejandro/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.02-19.56.43:072][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.02-19.56.43:072][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.02-19.56.43:214][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.02-19.56.43:227][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alejandro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.02-19.56.43:558][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.02-19.56.43:558][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.02-19.56.44:048][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.02-19.56.44:134][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.02-19.56.45:398][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.02-19.56.45:620][  0]SourceControl: Info Source control is disabled
+[2015.04.02-19.56.45:620][  0]SourceControl: Info Source control is disabled
+[2015.04.02-19.56.45:620][  0]SourceControl: Info Source control is disabled
+[2015.04.02-19.56.45:620][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.02-19.56.45:620][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.02-19.56.45:630][  0]SourceControl: Info Source control is disabled
+[2015.04.02-19.56.45:847][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.02-19.56.45:847][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.02-19.56.45:944][  0]LogEngine: Initializing Engine...
+[2015.04.02-19.56.48:122][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.02-19.56.48:140][  0]LogInit: FAudioDevice initialized.
+[2015.04.02-19.56.48:183][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.02-19.56.48:206][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Alejandro/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.02-19.56.48:209][  0]LogInit: Texture streaming: Enabled
+[2015.04.02-19.56.48:318][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.02-19.56.48:318][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.04.02-19.56.48:318][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.04.02-19.56.48:318][  0]LogAnalytics: SetUserId 4d7b92ee4a918ef235694a9553972bff|8bf8f7568e974c7196ce9bba7cc36de4|353ae85b-d1f9-4354-8b4e-d27eb10dd716
+[2015.04.02-19.56.48:318][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.02-19.56.48:349][  0]LogInit: Transaction tracking system initialized
+[2015.04.02-19.56.48:588][  0]BlueprintLog: New page: Editor Load
+[2015.04.02-19.56.48:653][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.04.02-19.56.48:653][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.02-19.56.49:543][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.02-19.56.50:196][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.02-19.56.56:080][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.02-19.56.56:080][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.02-19.56.56:145][  0]LogConsoleResponse:Display: 
+[2015.04.02-19.56.56:395][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.02-19.56.56:578][  0]SourceControl: Info Source control is disabled
+[2015.04.02-19.56.56:617][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.04.02-19.56.56:617][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.04.02-19.56.56:639][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/EpicGames/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2015.04.02-19.57.10:564][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.04.02-19.57.10:566][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.04.02-19.57.10:568][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.04.02-19.57.10:599][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2015.04.02-19.57.10:601][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2015.04.02-19.57.10:602][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.04.02-19.57.10:603][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.04.02-19.57.10:605][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.04.02-19.57.10:606][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.04.02-19.57.10:608][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.04.02-19.57.10:609][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.04.02-19.57.10:611][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.04.02-19.57.10:613][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.04.02-19.57.10:615][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Collapse01.uasset
+[2015.04.02-19.57.10:617][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Collapse02.uasset
+[2015.04.02-19.57.10:619][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.04.02-19.57.10:677][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Explosion01.uasset
+[2015.04.02-19.57.10:721][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Explosion02.uasset
+[2015.04.02-19.57.10:724][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.04.02-19.57.10:726][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Fire01.uasset
+[2015.04.02-19.57.10:729][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.04.02-19.57.10:731][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.04.02-19.57.10:734][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.04.02-19.57.10:737][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Light01.uasset
+[2015.04.02-19.57.10:740][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.04.02-19.57.10:742][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Light02.uasset
+[2015.04.02-19.57.10:744][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.04.02-19.57.10:746][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Smoke01.uasset
+[2015.04.02-19.57.10:749][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.04.02-19.57.10:751][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.04.02-19.57.10:753][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.04.02-19.57.10:758][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.04.02-19.57.10:771][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.04.02-19.57.10:773][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.04.02-19.57.10:778][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.04.02-19.57.10:783][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Steam01.uasset
+[2015.04.02-19.57.10:787][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.04.02-19.57.10:789][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.04.02-19.57.10:791][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.04.02-19.57.10:793][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.04.02-19.57.10:908][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.04.02-19.57.10:911][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.04.02-19.57.10:913][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.04.02-19.57.10:955][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.04.02-19.57.10:958][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.04.02-19.57.10:960][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.04.02-19.57.10:962][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.04.02-19.57.10:964][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.04.02-19.57.10:965][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.04.02-19.57.10:980][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.04.02-19.57.10:982][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.04.02-19.57.10:983][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.04.02-19.57.10:985][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.04.02-19.57.10:987][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.04.02-19.57.11:070][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.04.02-19.57.11:072][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.04.02-19.57.11:076][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Maps/StarterMap.umap
+[2015.04.02-19.57.11:236][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.04.02-19.57.11:238][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.04.02-19.57.11:240][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.04.02-19.57.11:242][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.04.02-19.57.11:244][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.04.02-19.57.11:246][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.04.02-19.57.11:248][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.04.02-19.57.11:249][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.04.02-19.57.11:251][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.04.02-19.57.11:253][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.04.02-19.57.11:255][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.04.02-19.57.11:257][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.04.02-19.57.11:259][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.04.02-19.57.11:261][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.04.02-19.57.11:263][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.04.02-19.57.11:265][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.04.02-19.57.11:267][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.04.02-19.57.11:268][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Glass.uasset
+[2015.04.02-19.57.11:270][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.04.02-19.57.11:272][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.04.02-19.57.11:274][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.04.02-19.57.11:276][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.04.02-19.57.11:278][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.04.02-19.57.11:280][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.04.02-19.57.11:282][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.04.02-19.57.11:284][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.04.02-19.57.11:286][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.04.02-19.57.11:288][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.04.02-19.57.11:290][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.04.02-19.57.11:292][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.04.02-19.57.11:294][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.04.02-19.57.11:296][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.04.02-19.57.11:297][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.04.02-19.57.11:300][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.04.02-19.57.11:301][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.04.02-19.57.11:303][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.04.02-19.57.11:305][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.04.02-19.57.11:334][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.04.02-19.57.11:335][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.04.02-19.57.11:337][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.04.02-19.57.11:338][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.04.02-19.57.11:340][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.04.02-19.57.11:341][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.04.02-19.57.11:344][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.04.02-19.57.11:346][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.04.02-19.57.11:348][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.04.02-19.57.11:350][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.04.02-19.57.11:353][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.04.02-19.57.11:354][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.04.02-19.57.11:357][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.04.02-19.57.11:358][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.04.02-19.57.11:361][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.04.02-19.57.11:363][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.04.02-19.57.11:365][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.04.02-19.57.11:367][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.04.02-19.57.11:370][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/P_Fire.uasset
+[2015.04.02-19.57.11:373][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.04.02-19.57.11:375][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.04.02-19.57.11:377][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.04.02-19.57.11:379][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.04.02-19.57.11:381][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.04.02-19.57.11:383][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.04.02-19.57.11:385][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.04.02-19.57.11:387][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.04.02-19.57.11:389][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.04.02-19.57.11:391][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.04.02-19.57.11:394][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.04.02-19.57.11:396][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.04.02-19.57.11:399][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.04.02-19.57.11:401][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.04.02-19.57.11:403][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.04.02-19.57.11:405][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.04.02-19.57.11:407][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Bush.uasset
+[2015.04.02-19.57.11:408][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Chair.uasset
+[2015.04.02-19.57.11:411][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.04.02-19.57.11:412][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Couch.uasset
+[2015.04.02-19.57.11:414][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Door.uasset
+[2015.04.02-19.57.11:416][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.04.02-19.57.11:418][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.04.02-19.57.11:420][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.04.02-19.57.11:421][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.04.02-19.57.11:423][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.04.02-19.57.11:427][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.04.02-19.57.11:430][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.04.02-19.57.11:432][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Rock.uasset
+[2015.04.02-19.57.11:433][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.04.02-19.57.11:435][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.04.02-19.57.11:436][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_Statue.uasset
+[2015.04.02-19.57.11:438][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.04.02-19.57.11:440][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.04.02-19.57.11:442][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.04.02-19.57.11:444][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.04.02-19.57.11:446][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.04.02-19.57.11:448][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.04.02-19.57.11:450][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.04.02-19.57.11:452][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.04.02-19.57.11:454][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.04.02-19.57.11:456][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.04.02-19.57.11:458][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.04.02-19.57.11:460][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.04.02-19.57.11:462][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.04.02-19.57.11:464][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.04.02-19.57.11:467][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.04.02-19.57.11:469][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.04.02-19.57.11:471][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.04.02-19.57.11:473][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.04.02-19.57.11:474][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.04.02-19.57.11:476][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.04.02-19.57.11:478][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.04.02-19.57.11:480][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2015.04.02-19.57.11:482][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2015.04.02-19.57.11:484][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/Sky54a2048.uasset
+[2015.04.02-19.57.11:485][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2015.04.02-19.57.11:487][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2015.04.02-19.57.11:489][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2015.04.02-19.57.11:491][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2015.04.02-19.57.11:493][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2015.04.02-19.57.11:494][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2015.04.02-19.57.11:496][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2015.04.02-19.57.11:497][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.04.02-19.57.11:506][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.04.02-19.57.11:516][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.04.02-19.57.11:526][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.04.02-19.57.11:535][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.04.02-19.57.11:568][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.04.02-19.57.11:577][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.04.02-19.57.11:591][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.04.02-19.57.11:601][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.04.02-19.57.11:617][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.04.02-19.57.11:625][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.04.02-19.57.11:634][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.04.02-19.57.11:642][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.04.02-19.57.11:655][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.04.02-19.57.11:657][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.04.02-19.57.11:683][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.04.02-19.57.11:685][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.04.02-19.57.11:687][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.04.02-19.57.11:692][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.04.02-19.57.11:695][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.04.02-19.57.11:698][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.04.02-19.57.11:701][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2015.04.02-19.57.11:702][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2015.04.02-19.57.11:704][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2015.04.02-19.57.11:705][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2015.04.02-19.57.11:707][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2015.04.02-19.57.11:708][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2015.04.02-19.57.11:711][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2015.04.02-19.57.11:712][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2015.04.02-19.57.11:713][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.04.02-19.57.11:727][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.04.02-19.57.11:729][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.04.02-19.57.12:491][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.04.02-19.57.13:267][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.04.02-19.57.13:318][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.04.02-19.57.13:336][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.04.02-19.57.13:510][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.04.02-19.57.14:743][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2015.04.02-19.57.14:766][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2015.04.02-19.57.14:767][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2015.04.02-19.57.14:768][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2015.04.02-19.57.14:769][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2015.04.02-19.57.15:694][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2015.04.02-19.57.16:293][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2015.04.02-19.57.16:294][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.04.02-19.57.16:640][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2015.04.02-19.57.16:642][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.04.02-19.57.16:650][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.04.02-19.57.16:657][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.04.02-19.57.16:759][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.04.02-19.57.17:546][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.04.02-19.57.17:565][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.04.02-19.57.17:715][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.04.02-19.57.18:384][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.04.02-19.57.18:385][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2015.04.02-19.57.18:386][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2015.04.02-19.57.18:675][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2015.04.02-19.57.19:002][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2015.04.02-19.57.19:004][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2015.04.02-19.57.19:006][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.04.02-19.57.20:438][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2015.04.02-19.57.20:440][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2015.04.02-19.57.20:442][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.04.02-19.57.20:503][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.04.02-19.57.20:506][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.04.02-19.57.21:731][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.04.02-19.57.21:735][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.04.02-19.57.21:738][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.04.02-19.57.21:741][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.04.02-19.57.21:914][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.04.02-19.57.22:622][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2015.04.02-19.57.22:624][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2015.04.02-19.57.22:625][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2015.04.02-19.57.23:793][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2015.04.02-19.57.23:795][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2015.04.02-19.57.23:796][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2015.04.02-19.57.23:797][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2015.04.02-19.57.24:234][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2015.04.02-19.57.24:236][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.04.02-19.57.24:237][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2015.04.02-19.57.24:238][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2015.04.02-19.57.24:261][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2015.04.02-19.57.24:262][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2015.04.02-19.57.24:263][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2015.04.02-19.57.24:264][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2015.04.02-19.57.24:392][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2015.04.02-19.57.24:393][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2015.04.02-19.57.24:395][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2015.04.02-19.57.24:396][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.04.02-19.57.25:056][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.04.02-19.57.25:068][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.04.02-19.57.25:199][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.04.02-19.57.25:207][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.04.02-19.57.25:407][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.04.02-19.57.25:414][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2015.04.02-19.57.25:415][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.04.02-19.57.25:417][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.04.02-19.57.25:847][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.04.02-19.57.25:860][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.04.02-19.57.25:872][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.04.02-19.57.25:884][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2015.04.02-19.57.26:025][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2015.04.02-19.57.26:026][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.04.02-19.57.26:238][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.04.02-19.57.26:243][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2015.04.02-19.57.27:322][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2015.04.02-19.57.27:323][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2015.04.02-19.57.27:325][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2015.04.02-19.57.27:327][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2015.04.02-19.57.27:379][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2015.04.02-19.57.27:380][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2015.04.02-19.57.27:382][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2015.04.02-19.57.27:383][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.04.02-19.57.27:884][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.04.02-19.57.27:891][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2015.04.02-19.57.27:893][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2015.04.02-19.57.27:894][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.04.02-19.57.27:907][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.04.02-19.57.27:913][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2015.04.02-19.57.27:914][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2015.04.02-19.57.27:915][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2015.04.02-19.57.28:453][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2015.04.02-19.57.28:454][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2015.04.02-19.57.28:455][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2015.04.02-19.57.28:456][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.04.02-19.57.28:540][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2015.04.02-19.57.28:542][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2015.04.02-19.57.28:543][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2015.04.02-19.57.28:544][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2015.04.02-19.57.28:665][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2015.04.02-19.57.28:666][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2015.04.02-19.57.28:667][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2015.04.02-19.57.28:668][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2015.04.02-19.57.28:802][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2015.04.02-19.57.28:803][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2015.04.02-19.57.28:804][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2015.04.02-19.57.28:806][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2015.04.02-19.57.28:976][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2015.04.02-19.57.28:977][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2015.04.02-19.57.28:978][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2015.04.02-19.57.28:979][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2015.04.02-19.57.29:274][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2015.04.02-19.57.29:407][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.04.02-19.57.29:417][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.04.02-19.57.29:430][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2015.04.02-19.57.29:919][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2015.04.02-19.57.29:920][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2015.04.02-19.57.29:921][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.04.02-19.57.29:927][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.04.02-19.57.30:363][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.04.02-19.57.30:371][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.04.02-19.57.30:382][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.04.02-19.57.30:392][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.04.02-19.57.30:537][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.04.02-19.57.30:542][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.04.02-19.57.30:551][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2015.04.02-19.57.30:553][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.04.02-19.57.30:961][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.04.02-19.57.30:963][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.04.02-19.57.30:965][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2015.04.02-19.57.30:966][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2015.04.02-19.57.30:978][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.04.02-19.57.30:981][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.04.02-19.57.30:983][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.04.02-19.57.30:984][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.04.02-19.57.31:031][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.04.02-19.57.31:033][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2015.04.02-19.57.31:034][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2015.04.02-19.57.31:035][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.04.02-19.57.31:203][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.04.02-19.57.31:206][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.04.02-19.57.31:207][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.04.02-19.57.31:218][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.04.02-19.57.31:219][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.04.02-19.57.31:221][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.04.02-19.57.31:223][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.04.02-19.57.31:440][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2015.04.02-19.57.31:788][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2015.04.02-19.57.31:789][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2015.04.02-19.57.31:790][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2015.04.02-19.57.31:814][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.04.02-19.57.31:816][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.04.02-19.57.31:820][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2015.04.02-19.57.31:821][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2015.04.02-19.57.31:936][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2015.04.02-19.57.31:937][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2015.04.02-19.57.31:938][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2015.04.02-19.57.31:939][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.04.02-19.57.32:508][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.04.02-19.57.32:513][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.04.02-19.57.32:518][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.04.02-19.57.32:540][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.04.02-19.57.32:547][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.04.02-19.57.32:557][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.04.02-19.57.32:562][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.04.02-19.57.33:140][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.04.02-19.57.33:144][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2015.04.02-19.57.44:654][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.04.02-19.57.47:296][  0]LogSavePackage: Save=620.870300ms
+[2015.04.02-19.57.47:296][  0]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Floor_400x4002F4EA42C41F4D438AB31EF8CE1077939.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.04.02-19.57.47:366][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.04.02-19.57.47:470][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.02-19.57.47:472][  0]LightingResults: New page: Lighting Build
+[2015.04.02-19.57.48:789][  0]MapCheck: New page: Map Check
+[2015.04.02-19.57.48:789][  0]LightingResults: New page: Lighting Build
+[2015.04.02-19.57.49:527][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014D7004680
+[2015.04.02-19.57.57:732][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.02-19.57.59:993][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-19.58.00:090][  0]Cmd: MAP CHECKDEP
+[2015.04.02-19.58.00:112][  0]MapCheck: New page: FlyingExampleMap - Apr 2, 2015, 9:58:00 AM
+[2015.04.02-19.58.00:304][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 214.175ms to complete.
+[2015.04.02-19.58.00:304][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 12.913
+[2015.04.02-19.58.03:462][  0]LogCollectionManager: Loaded 0 collections in 0.001988 seconds
+[2015.04.02-19.58.03:536][  0]LogContentBrowser: Native class hierarchy populated in 0.0730 seconds. Added 1696 classes and 261 folders.
+[2015.04.02-19.58.03:972][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2015.04.02-19.58.05:637][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.02-19.58.05:735][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.02-19.58.05:975][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.02-19.58.06:299][  0]LogLoad: Full Startup: 90.14 seconds (BP compile: 0.87 seconds)
+[2015.04.02-19.58.06:664][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP'
+[2015.04.02-19.58.09:895][  0]LogRenderer:Warning: Reallocating scene render targets to support 856x376 (Frame:3).
+[2015.04.02-19.58.11:302][  5]LogAssetRegistry: Asset discovery search completed in 82.6594 seconds
+[2015.04.02-19.58.58:013][727]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Blueprints'
+[2015.04.02-20.02.38:975][579]LogSavePackage: Save=467.029785ms
+[2015.04.02-20.02.38:975][579]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingPawn6F34C5E348AD3FC4469318AF47ED7BAA.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2015.04.02-20.02.39:396][618]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-20.02.40:690][618]BlueprintEditorCompileResults: Info [0364.52] Compile of FlyingPawn successful! [in 1,279 ms]
+[2015.04.02-20.02.43:296][748]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-20.02.43:355][748]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 10:02:43 AM)
+[2015.04.02-20.02.43:533][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178012s)
+[2015.04.02-20.02.43:535][748]LogPlayLevel: PIE: World Init took: (0.001869s)
+[2015.04.02-20.02.43:549][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.194191s)
+[2015.04.02-20.02.43:842][748]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-20.02.44:181][748]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-20.02.44:215][748]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-15.02.44
+[2015.04.02-20.02.44:280][748]LogWorld: Bringing up level for play took: 0.098616
+[2015.04.02-20.02.44:519][748]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 1.291
+[2015.04.02-20.03.02:471][ 76]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CE8DC540
+[2015.04.02-20.03.06:134][375]LogEditorTransaction: Undo Delete current selection
+[2015.04.02-20.03.22:494][925]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-20.03.22:700][925]BlueprintEditorCompileResults: Info [0406.55] Compile of FlyingPawn successful! [in 206 ms]
+[2015.04.02-20.03.23:795][967]LogSavePackage: Save=423.163116ms
+[2015.04.02-20.03.23:795][967]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingPawn88B5687241D1A5F9F397EA9E2890340D.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2015.04.02-20.03.26:609][151]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-20.03.26:609][151]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 10:03:26 AM)
+[2015.04.02-20.03.26:673][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063784s)
+[2015.04.02-20.03.26:675][151]LogPlayLevel: PIE: World Init took: (0.001381s)
+[2015.04.02-20.03.26:675][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.065553s)
+[2015.04.02-20.03.26:752][151]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-20.03.26:754][151]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-20.03.26:788][151]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-15.03.26
+[2015.04.02-20.03.26:789][151]LogWorld: Bringing up level for play took: 0.035017
+[2015.04.02-20.03.26:814][151]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.414
+[2015.04.02-20.03.45:938][790]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CEEE8720
+[2015.04.02-20.04.09:735][254]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TemplateCube_Rounded_147)
+[2015.04.02-20.04.15:523][387]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2015.04.02-20.04.15:597][387]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Plane mesh)
+[2015.04.02-20.05.24:264][ 60]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-20.05.24:465][ 60]BlueprintEditorCompileResults: Info [0528.31] Compile of FlyingPawn successful! [in 200 ms]
+[2015.04.02-20.05.26:171][182]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-20.05.26:172][182]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 10:05:26 AM)
+[2015.04.02-20.05.26:257][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084488s)
+[2015.04.02-20.05.26:258][182]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2015.04.02-20.05.26:258][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.086001s)
+[2015.04.02-20.05.26:486][182]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-20.05.26:488][182]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-20.05.26:529][182]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-15.05.26
+[2015.04.02-20.05.26:531][182]LogWorld: Bringing up level for play took: 0.042195
+[2015.04.02-20.05.26:570][182]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 1.341
+[2015.04.02-20.05.32:420][419]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014B8823600
+[2015.04.02-20.08.58:059][ 31]LogSavePackage: Save=10788.137695ms
+[2015.04.02-20.08.58:059][ 31]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingExampleMap_Auto134B0F76148246B61FE1608BB9A6F8AC9.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto1.umap'
+[2015.04.02-20.08.58:235][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 11.165
+[2015.04.02-20.08.58:235][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 11.165
+[2015.04.02-20.08.58:324][ 31]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FlyingBP/Blueprints/FlyingPawn] ([1] browsable assets)...
+[2015.04.02-20.08.58:360][ 31]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn]
+[2015.04.02-20.08.58:360][ 31]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/FlyingPawn]
+[2015.04.02-20.08.59:110][ 31]LogSavePackage: Save=740.626343ms
+[2015.04.02-20.08.59:111][ 31]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingPawn_Auto1C3F9DFA84F3C37EF98E37B9F0C5553AA.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Blueprints/FlyingPawn_Auto1.uasset'
+[2015.04.02-20.08.59:125][ 31]LogFileHelpers: Auto-saving content packages took 0.890
+[2015.04.02-21.02.26:956][670]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.02-21.02.26:957][670]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Blueprints'
+[2015.04.02-21.04.07:119][391]LogWindows: LaunchURL https://docs.unrealengine.com/latest/INT/API/Runtime/Engine/GameFramework/APawn/AddMovementInput/index.html
+[2015.04.02-21.06.33:531][740]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.052
+[2015.04.02-21.06.33:571][740]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FlyingBP/Blueprints/FlyingPawn] ([1] browsable assets)...
+[2015.04.02-21.06.33:626][740]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn]
+[2015.04.02-21.06.33:626][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/FlyingPawn]
+[2015.04.02-21.06.34:312][740]LogSavePackage: Save=569.755371ms
+[2015.04.02-21.06.34:316][740]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingPawn_Auto232C484424FAEAF0073329FAF5609646C.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Blueprints/FlyingPawn_Auto2.uasset'
+[2015.04.02-21.06.34:414][740]LogFileHelpers: Auto-saving content packages took 0.883
+[2015.04.02-21.16.35:162][484]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.091
+[2015.04.02-21.16.35:207][484]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FlyingBP/Blueprints/FlyingPawn] ([1] browsable assets)...
+[2015.04.02-21.16.35:307][484]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn]
+[2015.04.02-21.16.35:307][484]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/FlyingPawn]
+[2015.04.02-21.16.36:507][484]LogSavePackage: Save=1182.861206ms
+[2015.04.02-21.16.36:522][484]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingPawn_Auto3777C0407440905C638B68EB3642B55E7.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Blueprints/FlyingPawn_Auto3.uasset'
+[2015.04.02-21.16.36:565][484]LogFileHelpers: Auto-saving content packages took 1.403
+[2015.04.02-21.19.25:983][317]LogRenderer:Warning: Reallocating scene render targets to support 856x592 (Frame:12106).
+[2015.04.02-21.33.04:174][655]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-21.33.04:606][655]BlueprintEditorCompileResults: Info [5788.45] Compile of FlyingPawn successful! [in 432 ms]
+[2015.04.02-21.33.05:685][715]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.33.05:686][715]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:33:05 AM)
+[2015.04.02-21.33.06:114][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.428240s)
+[2015.04.02-21.33.06:116][715]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2015.04.02-21.33.06:116][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.430251s)
+[2015.04.02-21.33.06:212][715]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.33.06:214][715]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.33.06:295][715]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.33.06
+[2015.04.02-21.33.06:297][715]LogWorld: Bringing up level for play took: 0.080949
+[2015.04.02-21.33.06:332][715]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 1.103
+[2015.04.02-21.33.10:532][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CEFAF4C0
+[2015.04.02-21.33.13:926][ 36]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.33.13:926][ 36]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:33:13 AM)
+[2015.04.02-21.33.14:021][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094504s)
+[2015.04.02-21.33.14:023][ 36]LogPlayLevel: PIE: World Init took: (0.001423s)
+[2015.04.02-21.33.14:023][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.096354s)
+[2015.04.02-21.33.14:106][ 36]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.33.14:108][ 36]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.33.14:282][ 36]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.33.14
+[2015.04.02-21.33.14:284][ 36]LogWorld: Bringing up level for play took: 0.049892
+[2015.04.02-21.33.14:287][ 36]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 1.058
+[2015.04.02-21.33.17:266][288]LogSelection:Warning: PIE object was selected: "FlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingPawn_C_0"
+[2015.04.02-21.33.34:022][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.04.02-21.33.34:065][101]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CD7265C0
+[2015.04.02-21.33.36:489][212]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.33.36:489][212]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:33:36 AM)
+[2015.04.02-21.33.36:562][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071594s)
+[2015.04.02-21.33.36:563][212]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2015.04.02-21.33.36:563][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.072967s)
+[2015.04.02-21.33.36:652][212]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.33.36:654][212]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.33.36:688][212]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.33.36
+[2015.04.02-21.33.36:689][212]LogWorld: Bringing up level for play took: 0.035354
+[2015.04.02-21.33.36:691][212]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.538
+[2015.04.02-21.33.57:105][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014B86CB380
+[2015.04.02-21.37.27:043][843]LogSavePackage: Save=11410.734375ms
+[2015.04.02-21.37.27:044][843]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingExampleMap_Auto4A1F20FE4403A170366C216A1F251CDC9.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto4.umap'
+[2015.04.02-21.37.27:090][843]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 12.146
+[2015.04.02-21.37.27:090][843]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.146
+[2015.04.02-21.37.27:134][843]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FlyingBP/Blueprints/FlyingPawn] ([1] browsable assets)...
+[2015.04.02-21.37.27:186][843]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn]
+[2015.04.02-21.37.27:186][843]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/FlyingPawn]
+[2015.04.02-21.37.28:241][843]LogSavePackage: Save=1045.207397ms
+[2015.04.02-21.37.28:243][843]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingPawn_Auto4E7D65A1844814AF78F32C097FACE7374.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Blueprints/FlyingPawn_Auto4.uasset'
+[2015.04.02-21.37.28:275][843]LogFileHelpers: Auto-saving content packages took 1.185
+[2015.04.02-21.38.30:897][839]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-21.38.31:010][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.04.02-21.38.31:066][839]BlueprintEditorCompileResults: Info [6114.91] Compile of FlyingPawn successful! [in 169 ms]
+[2015.04.02-21.38.31:881][888]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.38.31:881][888]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:38:31 AM)
+[2015.04.02-21.38.32:002][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119649s)
+[2015.04.02-21.38.32:004][888]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2015.04.02-21.38.32:004][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.121559s)
+[2015.04.02-21.38.32:093][888]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.38.32:095][888]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.38.32:138][888]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.38.32
+[2015.04.02-21.38.32:139][888]LogWorld: Bringing up level for play took: 0.042620
+[2015.04.02-21.38.32:157][888]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.928
+[2015.04.02-21.38.39:760][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014D391B380
+[2015.04.02-21.39.14:386][652]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-21.39.14:559][652]BlueprintEditorCompileResults: Info [6158.40] Compile of FlyingPawn successful! [in 173 ms]
+[2015.04.02-21.39.15:662][721]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.39.15:663][721]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:39:15 AM)
+[2015.04.02-21.39.15:740][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076625s)
+[2015.04.02-21.39.15:741][721]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2015.04.02-21.39.15:741][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.078215s)
+[2015.04.02-21.39.15:833][721]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.39.15:835][721]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.39.15:879][721]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.39.15
+[2015.04.02-21.39.15:881][721]LogWorld: Bringing up level for play took: 0.045593
+[2015.04.02-21.39.15:900][721]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.671
+[2015.04.02-21.39.24:523][126]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014BC81FB00
+[2015.04.02-21.39.35:205][840]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-21.39.35:384][840]BlueprintEditorCompileResults: Info [6179.23] Compile of FlyingPawn successful! [in 179 ms]
+[2015.04.02-21.39.36:456][907]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.39.36:456][907]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:39:36 AM)
+[2015.04.02-21.39.36:535][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078198s)
+[2015.04.02-21.39.36:536][907]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2015.04.02-21.39.36:536][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.079641s)
+[2015.04.02-21.39.36:620][907]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.39.36:622][907]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.39.36:662][907]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.39.36
+[2015.04.02-21.39.36:664][907]LogWorld: Bringing up level for play took: 0.041010
+[2015.04.02-21.39.36:685][907]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.544
+[2015.04.02-21.40.15:150][734]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014C6045580
+[2015.04.02-21.40.56:788][399]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.02-21.40.56:801][399]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.02-21.40.56:801][399]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.02-21.40.56:801][399]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.02-21.40.56:801][399]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.02-21.40.56:844][399]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.04.02-21.40.56:857][399]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.04.02-21.40.56:857][399]LogProperty:Warning: ClassProperty /Script/Engine.EdGraphPin:SimpleMemberReference.MemberParentClass: unresolved reference to 'BlueprintGeneratedClass'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C',MemberName="InpAxisEvt_LookUp_K2Node_InputAxisEvent_40"))'
+[2015.04.02-21.40.56:858][399]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8428.EdGraphPin_2306''
+[2015.04.02-21.40.56:858][399]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8428.EdGraphPin_2309''
+[2015.04.02-21.40.56:864][399]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.04.02-21.40.56:865][399]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.04.02-21.40.56:865][399]LogProperty:Warning: ClassProperty /Script/Engine.EdGraphPin:SimpleMemberReference.MemberParentClass: unresolved reference to 'BlueprintGeneratedClass'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C',MemberName="InpAxisEvt_Turn_K2Node_InputAxisEvent_47"))'
+[2015.04.02-21.40.56:865][399]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8427.EdGraphPin_2329''
+[2015.04.02-21.40.56:865][399]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8427.EdGraphPin_2332''
+[2015.04.02-21.41.43:019][421]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2015.04.02-21.43.33:445][110]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.04.02-21.43.44:890][110]LogSavePackage: Save=10995.034180ms
+[2015.04.02-21.43.44:890][110]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingExampleMap79CDA4204D31741448F722A2475F8F9F.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2015.04.02-21.43.45:808][110]LogFileHelpers: Saving map 'FlyingExampleMap' took 12.210
+[2015.04.02-21.43.46:250][110]LogSavePackage: Save=412.035553ms
+[2015.04.02-21.43.46:250][110]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingPawn9E634EF6441C981DA9B46A8B5378ACEC.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/FlyingPawn.uasset'
+[2015.04.02-21.44.07:737][406]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.02-21.44.07:749][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.04.02-21.44.07:760][406]LogPlayLevel: [PIE] Compiling FlyingPawn before PIE...
+[2015.04.02-21.44.07:936][406]LogPlayLevel: PIE:  Blueprint regeneration took 199 ms (1 blueprints)
+[2015.04.02-21.44.07:937][406]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:44:07 AM)
+[2015.04.02-21.44.08:008][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070425s)
+[2015.04.02-21.44.08:009][406]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2015.04.02-21.44.08:009][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.071944s)
+[2015.04.02-21.44.08:067][406]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.44.08:069][406]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.44.08:110][406]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.44.08
+[2015.04.02-21.44.08:112][406]LogWorld: Bringing up level for play took: 0.042417
+[2015.04.02-21.44.08:145][406]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.916
+[2015.04.02-21.44.11:585][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014AEAED9E0
+[2015.04.02-21.45.56:042][708]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.04.02-21.46.07:314][708]LogSavePackage: Save=10976.588867ms
+[2015.04.02-21.46.07:314][708]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingExampleMapA0533CAD4C43A080FD9E5A884610BAEC.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2015.04.02-21.46.07:384][708]LogFileHelpers: Saving map 'FlyingExampleMap' took 11.210
+[2015.04.02-21.46.22:732][353]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.46.22:733][353]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:46:22 AM)
+[2015.04.02-21.46.22:815][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081424s)
+[2015.04.02-21.46.22:816][353]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2015.04.02-21.46.22:817][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.083048s)
+[2015.04.02-21.46.22:879][353]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.46.22:881][353]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.46.22:916][353]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.46.22
+[2015.04.02-21.46.22:917][353]LogWorld: Bringing up level for play took: 0.036260
+[2015.04.02-21.46.22:919][353]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.31
+[2015.04.02-21.46.57:712][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.04.02-21.46.57:762][563]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014BC81DA80
+[2015.04.02-21.47.02:483][844]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2015.04.02-21.47.12:337][363]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ground)
+[2015.04.02-21.52.39:962][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2015.04.02-21.52.40:559][810]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2015.04.02-21.52.40:598][810]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Plane mesh)
+[2015.04.02-21.52.41:412][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2015.04.02-21.53.04:756][151]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.53.04:756][151]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:53:04 AM)
+[2015.04.02-21.53.04:846][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084162s)
+[2015.04.02-21.53.04:848][151]LogPlayLevel: PIE: World Init took: (0.001747s)
+[2015.04.02-21.53.04:849][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.086444s)
+[2015.04.02-21.53.04:925][151]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.53.04:926][151]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.53.04:960][151]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.53.04
+[2015.04.02-21.53.04:962][151]LogWorld: Bringing up level for play took: 0.034934
+[2015.04.02-21.53.04:963][151]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.266
+[2015.04.02-21.53.06:171][238]LogSelection:Warning: PIE object was selected: "PlayerStart /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.NetworkPlayerStart"
+[2015.04.02-21.53.12:525][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_9)
+[2015.04.02-21.53.12:525][562]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.TemplateCube_Rounded_9"
+[2015.04.02-21.53.13:678][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_5)
+[2015.04.02-21.53.13:678][617]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.TemplateCube_Rounded_7"
+[2015.04.02-21.53.22:597][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.04.02-21.53.22:643][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CC152B60
+[2015.04.02-21.53.30:668][669]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TemplateCube_Rounded_150)
+[2015.04.02-21.53.31:513][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2015.04.02-21.53.58:845][224]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.53.58:846][224]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:53:58 AM)
+[2015.04.02-21.53.58:919][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072719s)
+[2015.04.02-21.53.58:921][224]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2015.04.02-21.53.58:921][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.074653s)
+[2015.04.02-21.53.59:006][224]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.53.59:007][224]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.53.59:043][224]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.53.59
+[2015.04.02-21.53.59:044][224]LogWorld: Bringing up level for play took: 0.036372
+[2015.04.02-21.53.59:046][224]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.183
+[2015.04.02-21.55.01:766][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014DE5116C0
+[2015.04.02-21.55.03:260][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2015.04.02-21.55.03:377][113]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.04.02-21.57.12:930][742]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.57.12:931][742]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:57:12 AM)
+[2015.04.02-21.57.13:024][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092134s)
+[2015.04.02-21.57.13:025][742]LogPlayLevel: PIE: World Init took: (0.001351s)
+[2015.04.02-21.57.13:025][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.093946s)
+[2015.04.02-21.57.13:078][742]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.57.13:079][742]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.57.13:115][742]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.57.13
+[2015.04.02-21.57.13:117][742]LogWorld: Bringing up level for play took: 0.036784
+[2015.04.02-21.57.13:119][742]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.11
+[2015.04.02-21.57.23:299][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CEFC7100
+[2015.04.02-21.57.25:555][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_150)
+[2015.04.02-21.57.34:544][210]LogEditorViewport: Clicking on Actor (LMB): FlyingPawn_C (FlyingPawn)
+[2015.04.02-21.57.34:583][210]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Plane mesh)
+[2015.04.02-21.57.37:310][342]Cmd: DELETE
+[2015.04.02-21.57.37:310][342]Cmd: ACTOR DELETE
+[2015.04.02-21.57.41:459][537]LogEditorActor: Deleted Actor: FlyingPawn_C
+[2015.04.02-21.57.41:503][537]LogEditorActor: Deleted 1 Actors (0.133 secs)
+[2015.04.02-21.57.43:000][624]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-21.57.43:000][624]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 11:57:43 AM)
+[2015.04.02-21.57.43:075][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073446s)
+[2015.04.02-21.57.43:076][624]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2015.04.02-21.57.43:076][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.075098s)
+[2015.04.02-21.57.43:141][624]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-21.57.43:142][624]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-21.57.43:177][624]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-16.57.43
+[2015.04.02-21.57.43:178][624]LogWorld: Bringing up level for play took: 0.035318
+[2015.04.02-21.57.43:212][624]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.017
+[2015.04.02-21.57.59:920][998]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CEFAE0C0
+[2015.04.02-21.58.08:395][495]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TemplateCube_Rounded_19)
+[2015.04.02-21.58.10:395][587]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.04.02-21.58.10:420][587]LogEditorViewport: Clicking on Actor (double click): PlayerStart (NetworkPlayerStart)
+[2015.04.02-21.58.31:586][ 26]LogSavePackage: Save=11485.042969ms
+[2015.04.02-21.58.31:587][ 26]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingExampleMap_Auto56B38DF6A4E7F61ED79AC3986F9909B15.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto5.umap'
+[2015.04.02-21.58.31:841][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 11.915
+[2015.04.02-21.58.31:841][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 11.915
+[2015.04.02-22.03.48:533][689]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-22.03.48:594][689]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.04.02-22.03.48:597][689]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.04.02-22.03.48:706][689]LogBlueprint:Warning: [compiler] Warning [7632.55] Compile of FlyingPawn successful, but with 2 Warning(s) [in 173 ms]
+[2015.04.02-22.03.48:707][689]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.04.02-22.03.48:707][689]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.04.02-22.03.48:707][689]BlueprintEditorCompileResults:Warning: Warning [7632.55] Compile of FlyingPawn successful, but with 2 Warning(s) [in 173 ms]
+[2015.04.02-22.07.52:374][159]BlueprintLog: New page: Compile FlyingPawn
+[2015.04.02-22.07.52:563][159]BlueprintEditorCompileResults: Info [7876.41] Compile of FlyingPawn successful! [in 188 ms]
+[2015.04.02-22.08.02:248][920]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.02-22.08.02:248][920]PIE: New page: PIE session: FlyingExampleMap (Apr 2, 2015, 12:08:02 PM)
+[2015.04.02-22.08.02:328][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079380s)
+[2015.04.02-22.08.02:329][920]LogPlayLevel: PIE: World Init took: (0.001282s)
+[2015.04.02-22.08.02:330][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.081117s)
+[2015.04.02-22.08.02:392][920]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.02-22.08.02:396][920]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.04.02-22.08.02:442][920]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2015.04.02-17.08.02
+[2015.04.02-22.08.02:445][920]LogWorld: Bringing up level for play took: 0.048621
+[2015.04.02-22.08.02:488][920]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0.741
+[2015.04.02-22.08.21:511][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014DBC49DA0
+[2015.04.02-22.08.57:831][519]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.084
+[2015.04.02-22.08.57:882][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FlyingBP/Blueprints/FlyingPawn] ([1] browsable assets)...
+[2015.04.02-22.08.57:948][519]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FlyingBP/Blueprints/FlyingPawn.FlyingPawn]
+[2015.04.02-22.08.57:948][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/FlyingPawn]
+[2015.04.02-22.08.58:515][519]LogSavePackage: Save=551.275085ms
+[2015.04.02-22.08.58:516][519]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/FlyingPawn_Auto6F6E9CC9840120AA39C9FEEB89AEC8367.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Blueprints/FlyingPawn_Auto6.uasset'
+[2015.04.02-22.08.58:583][519]LogFileHelpers: Auto-saving content packages took 0.752
+[2015.04.02-22.11.22:997][518]LogWindows: LaunchURL https://docs.unrealengine.com/latest/INT/API/Runtime/Core/Containers/TArray/Add/1/index.html
+[2015.04.02-22.26.55:962][770]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Blueprints'
+[2015.04.02-22.27.12:281][639]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.056
+[2015.04.02-22.27.12:317][639]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/Flyer] ([1] browsable assets)...
+[2015.04.02-22.27.12:354][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/Flyer]
+[2015.04.02-22.27.12:525][639]LogSavePackage: Save=163.028687ms
+[2015.04.02-22.27.12:528][639]LogSavePackage: Moving '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Flyer_Auto7C4CD80F14CF6BE52F5E86F9B2DA7BE08.tmp' to '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Autosaves/Game/FlyingBP/Blueprints/Flyer_Auto7.uasset'
+[2015.04.02-22.27.12:547][639]LogFileHelpers: Auto-saving content packages took 0.266
+[2015.04.02-22.31.28:689][735]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Flyer_C_131' or package '/Engine/Transient'.
+[2015.04.02-22.31.28:689][735]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Flyer_C_1' or package '/Engine/Transient'.
+[2015.04.02-22.31.28:689][735]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Flyer_C_0' or package '/Engine/Transient'.
+[2015.04.02-22.31.28:689][735]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Flyer_C_130' or package '/Engine/Transient'.
+[2015.04.02-22.31.28:847][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CEE128E0
+[2015.04.02-22.31.28:848][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014D34AD580
+[2015.04.02-22.33.05:822][483]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Blueprints'
+[2015.04.02-22.33.42:805][700]Cmd: QUIT_EDITOR
+[2015.04.02-22.33.43:942][700]LogExit: Preparing to exit.
+[2015.04.02-22.33.49:747][700]LogExit: Editor shut down
+[2015.04.02-22.33.49:918][700]LogExit: Transaction tracking system shut down
+[2015.04.02-22.33.50:256][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CB4E7C40
+[2015.04.02-22.33.50:320][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CDAFDF80
+[2015.04.02-22.33.54:182][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014AED64CC0
+[2015.04.02-22.33.54:182][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014AEAEDEE0
+[2015.04.02-22.33.54:182][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014E2DBC4A0
+[2015.04.02-22.33.54:182][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014CEFFE980
+[2015.04.02-22.33.54:183][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000014BEFDD580
+[2015.04.02-22.33.54:183][700]LogExit: Object subsystem successfully closed.
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (178)
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.02-22.34.06:841][700]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.02-22.34.06:911][700]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.02-22.34.07:042][700]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.02-22.34.07:689][700]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.02-22.34.07:689][700]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.02-22.34.07:689][700]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.02-22.34.07:792][700]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.02-22.34.07:884][700]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.02-22.34.07:884][700]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.02-22.34.07:884][700]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.02-22.34.07:971][700]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.02-22.34.07:971][700]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.02-22.34.07:971][700]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.02-22.34.08:097][700]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.02-22.34.17:935][700]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.02-22.34.17:956][700]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.02-22.34.17:956][700]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.02-22.34.18:284][700]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.02-22.34.18:284][700]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.02-22.34.18:301][700]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.02-22.34.18:301][700]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.02-22.34.18:332][700]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.02-22.34.18:354][700]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.02-22.34.18:354][700]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.02-22.34.18:354][700]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.02-22.34.18:354][700]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.02-22.34.18:380][700]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.02-22.34.18:380][700]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.02-22.34.18:380][700]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.02-22.34.18:380][700]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.02-22.34.18:380][700]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.02-22.34.18:380][700]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.02-22.34.18:381][700]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.02-22.34.18:381][700]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.02-22.34.18:381][700]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.02-22.34.18:447][700]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.02-22.34.18:447][700]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.02-22.34.18:447][700]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.02-22.34.18:447][700]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.02-22.34.18:447][700]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.02-22.34.18:447][700]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.02-22.34.18:469][700]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.02-22.34.18:469][700]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.02-22.34.18:469][700]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.02-22.34.18:469][700]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.02-22.34.18:469][700]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.02-22.34.18:469][700]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.02-22.34.18:469][700]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.02-22.34.19:246][700]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.02-22.34.19:247][700]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.02-22.34.19:281][700]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.02-22.34.19:281][700]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.02-22.34.19:382][700]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.02-22.34.19:382][700]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.02-22.34.21:520][700]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.02-22.34.21:520][700]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.02-22.34.21:560][700]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.02-22.34.21:560][700]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.02-22.34.21:735][700]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.02-22.34.21:735][700]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.02-22.34.21:735][700]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.02-22.34.21:840][700]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.02-22.34.21:840][700]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.02-22.34.21:840][700]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.02-22.34.22:031][700]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.02-22.34.22:031][700]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.02-22.34.22:031][700]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.02-22.34.22:142][700]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.02-22.34.22:142][700]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.02-22.34.23:380][700]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.02-22.34.23:380][700]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.02-22.34.23:397][700]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.02-22.34.23:423][700]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.02-22.34.23:423][700]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.02-22.34.23:443][700]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.02-22.34.23:443][700]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.02-22.34.23:443][700]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.02-22.34.23:443][700]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.02-22.34.23:460][700]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.02-22.34.23:702][700]LogDerivedDataCache: Shutdown
+[2015.04.02-22.34.23:702][700]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.02-22.34.23:753][700]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.02-22.34.23:870][700]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.02-22.34.23:938][700]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.02-22.34.23:938][700]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.02-22.34.23:938][700]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.02-22.34.23:938][700]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.02-22.34.23:938][700]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.02-22.34.23:938][700]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.02-22.34.23:938][700]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.02-22.34.23:938][700]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.02-22.34.23:980][700]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.02-22.34.23:980][700]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.02-22.34.23:980][700]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.02-22.34.24:188][700]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.02-22.34.24:188][700]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.02-22.34.24:189][700]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.02-22.34.24:189][700]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.02-22.34.24:189][700]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.02-22.34.24:265][700]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.02-22.34.24:266][700]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.02-22.34.24:283][700]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.02-22.34.24:292][700]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.02-22.34.24:381][700]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.02-22.34.24:426][700]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.02-22.34.24:445][700]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.02-22.34.24:454][700]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.02-22.34.24:467][700]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.02-22.34.24:490][700]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.02-22.34.24:526][700]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.02-22.34.24:549][700]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.02-22.34.24:698][700]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.02-22.34.24:698][700]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.02-22.34.24:757][700]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.02-22.34.24:757][700]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.02-22.34.24:757][700]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.02-22.34.24:757][700]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.02-22.34.24:885][700]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.02-22.34.24:885][700]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.02-22.34.24:885][700]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.02-22.34.25:288][700]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.02-22.34.25:288][700]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.02-22.34.25:288][700]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.02-22.34.25:288][700]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.02-22.34.25:288][700]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.02-22.34.25:288][700]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.02-22.34.25:301][700]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.02-22.34.25:313][700]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.02-22.34.25:434][700]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.02-22.34.25:962][700]LogExit: Exiting.
+[2015.04.02-22.34.30:804][700]Log file closed, 04/02/15 17:34:30

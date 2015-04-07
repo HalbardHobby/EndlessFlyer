@@ -1,0 +1,461 @@
+﻿Log file open, 04/07/15 12:54:26
+LogInit:Display: Running engine for game: EndlessFlyer
+LogInit: Version: 4.7.4-2497108+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 31 2015 09:40:25
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/EpicGames/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.07-17.54.26:345][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.04.07-17.54.26:385][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.07-17.54.26:406][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.07-17.54.26:423][  0]LogInit: Object subsystem initialized
+[2015.04.07-17.54.26:427][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.07-17.54.26:427][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.07-17.54.26:427][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.07-17.54.26:427][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.07-17.54.26:427][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.07-17.54.26:427][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.07-17.54.26:428][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.07-17.54.26:428][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.07-17.54.26:438][  0]LogInit: Computer: WHEATLEY
+[2015.04.07-17.54.26:438][  0]LogInit: User: Alejandro
+[2015.04.07-17.54.26:438][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.04.07-17.54.26:438][  0]LogInit: High frequency timer resolution =2.338337 MHz
+[2015.04.07-17.54.26:438][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2015.04.07-17.54.26:438][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.07-17.54.26:438][  0]LogMemory: Process Physical Memory: 46.33 MB used, 46.33 MB peak
+[2015.04.07-17.54.26:438][  0]LogMemory: Process Virtual Memory: 26.48 MB used, 26.48 MB peak
+[2015.04.07-17.54.26:438][  0]LogMemory: Physical Memory: 3426.30 MB used, 6045.10 MB total
+[2015.04.07-17.54.26:438][  0]LogMemory: Virtual Memory: 288.47 MB used, 134217728.00 MB total
+[2015.04.07-17.54.26:488][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.04.07-17.54.26:488][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2015.04.07-17.54.26:508][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 720M    (Feature Level 11_0)
+[2015.04.07-17.54.26:508][  0]LogD3D11RHI: Adapter has 1994MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.04.07-17.54.26:511][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.07-17.54.26:511][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.07-17.54.26:511][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.07-17.54.26:520][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.07-17.54.26:533][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.07-17.54.26:603][  0]LogTextLocalizationManager: The requested culture ('en') has no localization data; parent culture's ('es') localization data will be used.
+[2015.04.07-17.54.26:723][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/EpicGames/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/EpicGames/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.07-17.54.26:723][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/EpicGames/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/EpicGames/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.07-17.54.26:859][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.07-17.54.30:390][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.07-17.54.31:282][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.07-17.54.31:373][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.07-17.54.31:436][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/Alejandro/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.07-17.54.31:436][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alejandro/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.07-17.54.31:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.07-17.54.31:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.07-17.54.31:624][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.07-17.54.31:636][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alejandro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.07-17.54.32:082][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.07-17.54.32:082][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.07-17.54.32:553][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.07-17.54.32:643][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.07-17.54.33:649][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.07-17.54.33:948][  0]SourceControl: Info Source control is disabled
+[2015.04.07-17.54.33:948][  0]SourceControl: Info Source control is disabled
+[2015.04.07-17.54.33:948][  0]SourceControl: Info Source control is disabled
+[2015.04.07-17.54.33:949][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.07-17.54.33:949][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.07-17.54.33:961][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.07-17.54.33:973][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.1
+'
+[2015.04.07-17.54.34:225][  0]LeapPluginLog: Using LeapPlugin version 0.9.2
+[2015.04.07-17.54.34:232][  0]LogObj: 24850 objects as part of root set at end of initial load.
+[2015.04.07-17.54.34:232][  0]LogUObjectAllocator: 5236528 out of 0 bytes used by permanent object pool.
+[2015.04.07-17.54.34:336][  0]LogEngine: Initializing Engine...
+[2015.04.07-17.54.36:522][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.07-17.54.36:745][  0]LogInit: FAudioDevice initialized.
+[2015.04.07-17.54.36:797][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.07-17.54.36:822][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Alejandro/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.07-17.54.36:825][  0]LogInit: Texture streaming: Enabled
+[2015.04.07-17.54.36:949][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.07-17.54.36:949][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.04.07-17.54.36:949][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.4-2497108+++depot+UE4-Releases+4.7
+[2015.04.07-17.54.36:949][  0]LogAnalytics: SetUserId 4d7b92ee4a918ef235694a9553972bff|8bf8f7568e974c7196ce9bba7cc36de4|353ae85b-d1f9-4354-8b4e-d27eb10dd716
+[2015.04.07-17.54.36:949][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.07-17.54.36:983][  0]LogInit: Transaction tracking system initialized
+[2015.04.07-17.54.37:209][  0]BlueprintLog: New page: Editor Load
+[2015.04.07-17.54.37:255][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.04.07-17.54.37:255][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.07-17.54.38:425][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.07-17.54.39:171][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.07-17.54.39:562][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.07-17.54.39:562][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.07-17.54.39:624][  0]LogConsoleResponse:Display: 
+[2015.04.07-17.54.39:914][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.07-17.54.40:130][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.07-17.54.40:140][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.1
+'
+[2015.04.07-17.54.53:783][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.07-17.54.53:783][  0]LogEditorServer:Warning: Can't find file '../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/FlyingExampleMap.umap'
+[2015.04.07-17.54.53:784][  0]Cmd: MAP CHECKDEP
+[2015.04.07-17.54.53:786][  0]MapCheck: New page: Untitled_0 - Apr 7, 2015, 7:54:53 AM
+[2015.04.07-17.54.53:959][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 175.733ms to complete.
+[2015.04.07-17.54.53:960][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.177
+[2015.04.07-17.54.55:300][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_35a8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_4364_0///////STATCAT_Advanced////
+[2015.04.07-17.54.55:300][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.04.07-17.54.55:300][  0]LogCollectionManager: Loaded 0 collections in 0.005328 seconds
+[2015.04.07-17.54.55:360][  0]LogContentBrowser: Native class hierarchy populated in 0.0594 seconds. Added 1722 classes and 265 folders.
+[2015.04.07-17.54.55:981][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2015.04.07-17.54.58:162][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.07-17.54.58:268][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.07-17.54.58:347][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.07-17.54.58:520][  0]LogLoad: Full Startup: 34.78 seconds (BP compile: 0.00 seconds)
+[2015.04.07-17.54.58:555][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP'
+[2015.04.07-17.54.59:604][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Content/FlyingBP/Blueprints/BP_Obstacle.uasset
+	deleted:    Content/FlyingBP/Blueprints/FlyingPawn.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/M_Impact_Ripple.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/M_Light_Beam.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/M_Orange_Shiny.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/M_Pickup_Coin.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/M_Pickup_Coin_2.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/M_Pickup_Cupcake.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/M_Pickup_Health.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/M_Spotlight_Glass.uasset
+	deleted:    Content/FlyingBP/Blueprints/Materials/SpotLightLensMaterial.uasset
+	deleted:    Content/FlyingBP/Effects/P_Metal_Impact.uasset
+	deleted:    Content/FlyingBP/Effects/P_Pixel_Engine.uasset
+	deleted:    Content/FlyingBP/Effects/P_Pixel_Explosion.uasset
+	deleted:    Content/FlyingBP/Effects/P_Pixel_Explosion_Enemy.uasset
+	deleted:    Content/FlyingBP/Effects/P_Pixel_Explosion_Player.uasset
+	deleted:    Content/FlyingBP/Effects/P_UFO_Engine.uasset
+	deleted:    Content/FlyingBP/Effects/P_UFO_Engine_Boost.uasset
+	deleted:    Content/FlyingBP/Maps/FlyingExampleMap.umap
+	deleted:    Content/FlyingBP/Materials/M_Abduction_Beam.uasset
+	deleted:    Content/FlyingBP/Materials/M_Cow_Pasture.uasset
+	deleted:    Content/FlyingBP/Materials/M_Particle_Ribbon.uasset
+	deleted:    Content/FlyingBP/Materials/M_Pixel_Cube.uasset
+	deleted:    Content/FlyingBP/Materials/M_Pixel_Cube_Blue_Inst.uasset
+	deleted:    Content/FlyingBP/Materials/M_Pixel_Cube_Enemy_2_Inst.uasset
+	deleted:    Content/FlyingBP/Materials/M_Pixel_Cube_Enemy_Inst.uasset
+	deleted:    Content/FlyingBP/Materials/M_Pixel_Cube_Particle.uasset
+	deleted:    Content/FlyingBP/Materials/M_Pixel_Cube_Skin_Inst.uasset
+	deleted:    Content/FlyingBP/Materials/M_Radial_Gradient.uasset
+	deleted:    Content/FlyingBP/Materials/M_Space_Background.uasset
+	deleted:    Content/FlyingBP/Materials/M_Toy_Cow.uasset
+	deleted:    Content/FlyingBP/Materials/M_Toy_Fence.uasset
+	deleted:    Content/FlyingBP/Materials/M_Toy_Tree.uasset
+	deleted:    Content/FlyingBP/Materials/M_UFO_Main.uasset
+	deleted:    Content/FlyingBP/Materials/M_UFO_Main_Inst.uasset
+	deleted:    Content/FlyingBP/Materials/PM_UFO.uasset
+	deleted:    Content/FlyingBP/Meshes/FlyingCubeRounded.uasset
+	deleted:    Content/FlyingBP/Meshes/FlyingFloor.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_Pixel_Cube.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_Pixel_Dude.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_Pixel_Dude_Jumping.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_Pixel_Enemy_1.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_Pixel_Player.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_Toy_Cow.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_Toy_Tree.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_UFO_Hub.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_UFO_Main.uasset
+	deleted:    Content/FlyingBP/Meshes/SM_Wood_Fence.uasset
+	deleted:    Content/FlyingBP/Meshes/UFO.uasset
+	deleted:    Content/FlyingBP/Textures/T_Space.uasset
+	deleted:    Content/FlyingBP/Textures/T_Toy_Cow_M.uasset
+	deleted:    Content/FlyingBP/Textures/T_Toy_Cow_N.uasset
+	deleted:    Content/FlyingBP/Textures/T_UFO_02_M.uasset
+	deleted:    Content/FlyingBP/Textures/T_UFO_M.uasset
+	deleted:    Content/StarterContent/Blueprints/BP_LightStudio.uasset
+	deleted:    Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+	deleted:    Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Config/DefaultInput.ini
+	modified:   Content/FlyingBP/Blueprints/BP_Obstacle.uasset
+	modified:   Content/FlyingBP/Blueprints/BP_Trench_Tile.uasset
+	modified:   Content/FlyingBP/Blueprints/XWing.uasset
+	modified:   Content/FlyingBP/Maps/EndlessFlight.umap
+	modified:   Content/StarterContent/Architecture/Floor_400x400.uasset
+	modified:   Content/StarterContent/Architecture/Pillar_50x500.uasset
+	modified:   Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+	modified:   Content/StarterContent/Architecture/Wall_400x200.uasset
+	modified:   Content/StarterContent/Architecture/Wall_400x300.uasset
+	modified:   Content/StarterContent/Architecture/Wall_400x400.uasset
+	modified:   Content/StarterContent/Architecture/Wall_500x500.uasset
+	modified:   Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+	modified:   Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+	modified:   Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+	modified:   Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+	modified:   Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+	modified:   Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+	modified:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+	modified:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+	modified:   Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+	modified:   Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+	modified:   Content/StarterContent/Blueprints/Assets/Skybox.uasset
+	modified:   Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Cone.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Cube.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Cylinder.uasset
+	modified:   Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Pipe.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Plane.uasset
+	modified:   Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Sphere.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Torus.uasset
+	modified:   Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Trim.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Tube.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+	modified:   Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+	modified:   Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+	modified:   Intermediate/CachedAssetRegistry.bin
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+	modified:   Saved/AutoScreenshot.png
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto1.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto2.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto3.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto9.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto1.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto3.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto4.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto5.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto6.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto7.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto8.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto9.uasset
+	modified:   Saved/Autosaves/Game/FlyingBP/Maps/EndlessFlight_Auto1.umap
+	modified:   Saved/Autosaves/PackageRestoreData.json
+	deleted:    Saved/Backup/FlyingExampleMap_2015-04-03-21-14-48.umap
+	deleted:    Saved/Backup/FlyingGameMode_2015-04-03-21-13-00.uasset
+	deleted:    Saved/Backup/FlyingPawn_2015-04-03-20-54-19.uasset
+	modified:   Saved/Config/Windows/EditorUserSettings.ini
+	modified:   Saved/Config/Windows/Engine.ini
+	modified:   Saved/Config/Windows/SourceControlSettings.ini
+	modified:   Saved/Logs/EndlessFlyer.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Plugins/
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Obstacle_Auto3.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Obstacle_Auto4.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Obstacle_Auto5.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Obstacle_Auto8.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Obstacle_Auto9.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto4.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto5.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto6.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto7.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/BP_Trench_Tile_Auto8.uasset
+	Saved/Autosaves/Game/FlyingBP/Blueprints/XWing_Auto0.uasset
+	Saved/Autosaves/Game/FlyingBP/Maps/EndlessFlight_Auto0.umap
+	Saved/Autosaves/Game/FlyingBP/Maps/EndlessFlight_Auto2.umap
+	Saved/Autosaves/Game/FlyingBP/Maps/EndlessFlight_Auto4.umap
+	Saved/Autosaves/Game/FlyingBP/Maps/EndlessFlight_Auto5.umap
+	Saved/Autosaves/Game/FlyingBP/Maps/EndlessFlight_Auto7.umap
+	Saved/Autosaves/Game/FlyingBP/Maps/EndlessFlight_Auto8.umap
+	Saved/Autosaves/Game/FlyingBP/Maps/EndlessFlight_Auto9.umap
+	Saved/Autosaves/Game/FlyingBP/Maps/UEDPCEndlessFlight.umap
+	Saved/Autosaves/Game/StarterContent/Architecture/
+	Saved/Autosaves/Game/StarterContent/Blueprints/
+	Saved/Autosaves/Game/StarterContent/Shapes/
+	Saved/Backup/BP_Obstacle_2015-04-07-10-32-25.uasset
+	Saved/Backup/BP_Obstacle_2015-04-07-10-42-25.uasset
+	Saved/Backup/BP_Obstacle_2015-04-07-10-52-44.uasset
+	Saved/Backup/BP_Obstacle_2015-04-07-11-04-49.uasset
+	Saved/Backup/BP_Obstacle_2015-04-07-11-32-58.uasset
+	Saved/Backup/BP_Obstacle_2015-04-07-11-38-57.uasset
+	Saved/Backup/BP_Obstacle_2015-04-07-11-50-35.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-10-29-39.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-10-42-26.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-10-52-45.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-11-04-51.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-11-14-53.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-11-26-46.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-11-38-59.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-11-50-37.uasset
+	Saved/Backup/BP_Trench_Tile_2015-04-07-12-30-42.uasset
+	Saved/Backup/EndlessFlight_2015-04-07-10-07-06.umap
+	Saved/Backup/EndlessFlight_2015-04-07-10-29-39.umap
+	Saved/Backup/EndlessFlight_2015-04-07-10-52-44.umap
+	Saved/Backup/EndlessFlight_2015-04-07-11-04-49.umap
+	Saved/Backup/EndlessFlight_2015-04-07-11-26-45.umap
+	Saved/Backup/EndlessFlight_2015-04-07-11-38-57.umap
+	Saved/Backup/EndlessFlight_2015-04-07-11-50-35.umap
+	Saved/Backup/EndlessFlight_2015-04-07-12-14-40.umap
+	Saved/Backup/EndlessFlight_2015-04-07-12-30-40.umap
+	Saved/Backup/EndlessFlight_2015-04-07-12-40-50.umap
+	Saved/Backup/Floor_400x400_2015-04-07-12-30-42.uasset
+	Saved/Backup/FogBrightnessLUT_2015-04-07-12-30-48.uasset
+	Saved/Backup/M_LightStage_Arrows_2015-04-07-12-30-49.uasset
+	Saved/Backup/M_LightStage_Skybox_Black_2015-04-07-12-30-49.uasset
+	Saved/Backup/M_LightStage_Skybox_HDRI_2015-04-07-12-30-49.uasset
+	Saved/Backup/M_LightStage_Skybox_Master_2015-04-07-12-30-49.uasset
+	Saved/Backup/Pillar_50x500_2015-04-07-12-30-41.uasset
+	Saved/Backup/SM_Arrows_2015-04-07-12-30-50.uasset
+	Saved/Backup/SM_AssetPlatform_2015-04-07-12-30-43.uasset
+	Saved/Backup/Shape_Cone_2015-04-07-12-30-47.uasset
+	Saved/Backup/Shape_Cube_2015-04-07-12-30-48.uasset
+	Saved/Backup/Shape_Cylinder_2015-04-07-12-30-41.uasset
+	Saved/Backup/Shape_NarrowCapsule_2015-04-07-12-30-43.uasset
+	Saved/Backup/Shape_Pipe_180_2015-04-07-12-30-44.uasset
+	Saved/Backup/Shape_Pipe_2015-04-07-12-30-44.uasset
+	Saved/Backup/Shape_Pipe_90_2015-04-07-12-30-43.uasset
+	Saved/Backup/Shape_Plane_2015-04-07-12-30-43.uasset
+	Saved/Backup/Shape_QuadPyramid_2015-04-07-12-30-45.uasset
+	Saved/Backup/Shape_Sphere_2015-04-07-12-30-45.uasset
+	Saved/Backup/Shape_Torus_2015-04-07-12-30-46.uasset
+	Saved/Backup/Shape_TriPyramid_2015-04-07-12-30-47.uasset
+	Saved/Backup/Shape_Trim_2015-04-07-12-30-46.uasset
+	Saved/Backup/Shape_Trim_90_In_2015-04-07-12-30-46.uasset
+	Saved/Backup/Shape_Trim_90_Out_2015-04-07-12-30-47.uasset
+	Saved/Backup/Shape_Tube_2015-04-07-12-30-47.uasset
+	Saved/Backup/Shape_Wedge_A_2015-04-07-12-30-47.uasset
+	Saved/Backup/Shape_Wedge_B_2015-04-07-12-30-48.uasset
+	Saved/Backup/Shape_WideCapsule_2015-04-07-12-30-48.uasset
+	Saved/Backup/Skybox_2015-04-07-12-30-49.uasset
+	Saved/Backup/SunlightColorLUT_2015-04-07-12-30-48.uasset
+	Saved/Backup/Wall_400x200_2015-04-07-12-30-44.uasset
+	Saved/Backup/Wall_400x300_2015-04-07-12-30-44.uasset
+	Saved/Backup/Wall_400x400_2015-04-07-12-30-44.uasset
+	Saved/Backup/Wall_500x500_2015-04-07-12-30-45.uasset
+	Saved/Backup/Wall_Door_400x300_2015-04-07-12-30-45.uasset
+	Saved/Backup/Wall_Door_400x400_2015-04-07-12-30-45.uasset
+	Saved/Backup/Wall_Window_400x300_2015-04-07-12-30-46.uasset
+	Saved/Backup/Wall_Window_400x400_2015-04-07-12-30-46.uasset
+	Saved/Backup/XWing_2015-04-07-10-07-06.uasset
+	Saved/Backup/XWing_2015-04-07-10-23-20.uasset
+	Saved/Backup/XWing_2015-04-07-10-32-25.uasset
+	Saved/Backup/XWing_2015-04-07-10-42-25.uasset
+	Saved/Backup/XWing_2015-04-07-10-52-44.uasset
+	Saved/Backup/XWing_2015-04-07-11-04-50.uasset
+	Saved/Backup/XWing_2015-04-07-11-14-52.uasset
+	Saved/Backup/XWing_2015-04-07-11-26-45.uasset
+	Saved/Backup/XWing_2015-04-07-11-38-58.uasset
+	Saved/Backup/XWing_2015-04-07-11-50-36.uasset
+	Saved/Backup/XWing_2015-04-07-12-14-40.uasset
+	Saved/Backup/XWing_2015-04-07-12-30-41.uasset
+	Saved/Logs/EndlessFlyer-backup-2015.04.07-09.43.19.log
+	Saved/Logs/EndlessFlyer-backup-2015.04.07-12.54.26.log
+	Saved/Logs/EndlessFlyer_2.log
+
+'
+[2015.04.07-17.54.59:605][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.04.07-17.54.59:826][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+'
+[2015.04.07-17.54.59:861][  0]LogRenderer:Warning: Reallocating scene render targets to support 856x376 (Frame:2).
+[2015.04.07-17.55.00:027][  1]SourceControl: Info master
+[2015.04.07-17.55.00:683][ 10]LogAssetRegistry: Asset discovery search completed in 23.4392 seconds
+[2015.04.07-17.55.04:911][367]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/FlyingOverview.uasset"'
+[2015.04.07-17.55.04:961][371]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.04.07-17.55.10:065][555]LeapPluginLog: InterfaceObject: XWing_C_0
+[2015.04.07-17.55.10:066][555]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.04.07-17.55.10:066][555]LeapPluginLog: InterfaceObject: XWing_C_0
+[2015.04.07-17.55.16:850][128]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Blueprints'
+[2015.04.07-17.55.17:919][181]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/BP_Obstacle.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/BP_Trench_Tile.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/FlyingGameMode.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/SpawnStart.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/T_Ring.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/XWing.uasset"'
+[2015.04.07-17.55.17:950][183]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FlyingBP/Blueprints/BP_Obstacle.uasset
+ M Content/FlyingBP/Blueprints/BP_Trench_Tile.uasset
+ M Content/FlyingBP/Blueprints/XWing.uasset
+'
+[2015.04.07-17.55.18:489][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Maps'
+[2015.04.07-17.55.19:506][325]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/EndlessFlight.umap"'
+[2015.04.07-17.55.19:551][329]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FlyingBP/Maps/EndlessFlight.umap
+'
+[2015.04.07-17.55.20:657][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.LeapController_0) Not registered. Aborting.
+[2015.04.07-17.55.20:707][341]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.04.07-17.55.20:731][341]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.04.07-17.55.20:783][341]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.04.07-17.55.20:827][341]Cmd: MAP LOAD FILE="../../../../../../../Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/EndlessFlight.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.07-17.55.20:829][341]LightingResults: New page: Lighting Build
+[2015.04.07-17.55.20:849][341]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0034 seconds. Added 5 classes and 0 folders.
+[2015.04.07-17.55.20:886][341]LoadErrors: New page: Loading map: EndlessFlight.umap
+[2015.04.07-17.55.20:886][341]MapCheck: New page: Map Check
+[2015.04.07-17.55.20:886][341]LightingResults: New page: Lighting Build
+[2015.04.07-17.55.20:937][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000010FE46480
+[2015.04.07-17.55.21:058][341]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.07-17.55.21:063][341]LogAIModule: Creating AISystem for world EndlessFlight
+[2015.04.07-17.55.21:112][341]Cmd: MAP CHECKDEP
+[2015.04.07-17.55.21:112][341]MapCheck: New page: EndlessFlight - Apr 7, 2015, 7:55:21 AM
+[2015.04.07-17.55.21:254][341]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.39ms to complete.
+[2015.04.07-17.55.21:256][341]LogFileHelpers: Loading map 'EndlessFlight' took 0.432
+[2015.04.07-17.55.22:281][425]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/EndlessFlight.umap"'
+[2015.04.07-17.55.22:317][428]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FlyingBP/Maps/EndlessFlight.umap
+'
+[2015.04.07-17.55.30:541][ 94]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.07-17.55.30:541][ 94]PIE: New page: PIE session: EndlessFlight (Apr 7, 2015, 7:55:30 AM)
+[2015.04.07-17.55.30:544][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002179s)
+[2015.04.07-17.55.30:545][ 94]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2015.04.07-17.55.30:545][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/EndlessFlight.EndlessFlight to /Game/FlyingBP/Maps/UEDPIE_0_EndlessFlight.EndlessFlight (0.003368s)
+[2015.04.07-17.55.30:627][ 94]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.04.07-17.55.30:629][ 94]LogAIModule: Creating AISystem for world EndlessFlight
+[2015.04.07-17.55.30:632][ 94]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_EndlessFlight.EndlessFlight up for play (max tick rate 0) at 2015.04.07-12.55.30
+[2015.04.07-17.55.30:633][ 94]LogWorld: Bringing up level for play took: 0.002882
+[2015.04.07-17.55.30:636][ 94]LeapPluginLog: InterfaceObject: XWing_C_11
+[2015.04.07-17.55.30:636][ 94]LeapPluginLog:Warning: Warning! More than one (2) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.04.07-17.55.30:730][ 94]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_EndlessFlight 0.985
+[2015.04.07-17.55.39:962][518]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.04.07-17.55.39:991][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.LeapController_0) Not registered. Aborting.
+[2015.04.07-17.55.40:058][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000011B6C0360
+[2015.04.07-17.55.40:090][518]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.04.07-17.55.43:120][815]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Blueprints'
+[2015.04.07-17.55.44:139][876]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/BP_Obstacle.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/BP_Trench_Tile.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/FlyingGameMode.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/SpawnStart.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/T_Ring.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Blueprints/XWing.uasset"'
+[2015.04.07-17.55.44:197][880]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Content/FlyingBP/Blueprints/BP_Obstacle.uasset
+ M Content/FlyingBP/Blueprints/BP_Trench_Tile.uasset
+ M Content/FlyingBP/Blueprints/XWing.uasset
+'
+[2015.04.07-17.55.45:305][956]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Maps'
+[2015.04.07-17.55.46:318][ 57]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/Maps/EndlessFlight.umap"'
+[2015.04.07-17.55.46:384][ 62]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/FlyingBP/Maps/EndlessFlight.umap
+'
+[2015.04.07-17.55.46:963][110]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/MaterialLayers'
+[2015.04.07-17.55.47:976][198]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/MaterialLayers/ML_Dirt.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/FlyingBP/MaterialLayers/ML_Emissive.uasset"'
+[2015.04.07-17.55.48:027][203]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.04.07-17.55.48:466][248]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FlyingBP/Meshes'
+[2015.04.07-17.55.58:503][223]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Materials'
+[2015.04.07-17.55.59:556][257]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/brick_ancientDiagonal.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Brick_BathStone.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Brick_chicagoStyle.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Brick_GuiBigCastleWall.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/brick_guiGen.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Concrete_FlatSurface.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Concrete_Square.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Ground_Dirt.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Ground_DirtBrownTan.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Ground_GrassThickGreen.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Ground_guiFloodedMud.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Ground_MuddyGrass_DRY.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Ground_MuddyGrass_WET.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/MasterMaterial.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_BrushedCopper.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_BrushedSteel.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_CyberCube.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_DiamondPlateSciFi.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_Gold.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_LeadRough.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_ReinforcedGridWall.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_RustedSolid.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Metal_sciFiCurveyWall.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/misc_WoodenCrate.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Rock_HoleyWall.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Rock_JaggedCaveWall.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Tile_Coloredtiles.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Tile_WoodAndTileOffsetPattern.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Wood_GeofwoodenPlankClean.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/Wood_InterlockingFloor.uasset" "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/wood_JFfantasyWoodPlanksNailedClean.uasset"'
+[2015.04.07-17.55.59:621][260]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.04.07-17.56.05:751][570]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2015.04.07-17.56.05:907][570]LogMaterial: Missing cached shader map for material Brick_BathStone, compiling. 
+[2015.04.07-17.56.06:040][570]LogMaterial: Missing cached shader map for material MasterMaterial, compiling. 
+[2015.04.07-17.56.06:203][570]LogMaterial: Missing cached shader map for material Brick_GuiBigCastleWall, compiling. 
+[2015.04.07-17.56.06:317][570]LogMaterial: Missing cached shader map for material brick_guiGen, compiling. 
+[2015.04.07-17.56.06:417][570]LogMaterial: Missing cached shader map for material MasterMaterial, compiling. 
+[2015.04.07-17.56.06:500][570]LogMaterial: Missing cached shader map for material Ground_Dirt, compiling. 
+[2015.04.07-17.56.06:596][570]LogMaterial: Missing cached shader map for material Ground_DirtBrownTan, compiling. 
+[2015.04.07-17.56.06:702][570]LogMaterial: Missing cached shader map for material Ground_GrassThickGreen, compiling. 
+[2015.04.07-17.56.06:843][570]LogMaterial: Missing cached shader map for material Ground_guiFloodedMud, compiling. 
+[2015.04.07-17.56.06:958][570]LogMaterial: Missing cached shader map for material Ground_MuddyGrass_DRY, compiling. 
+[2015.04.07-17.56.07:064][570]LogMaterial: Missing cached shader map for material Ground_MuddyGrass_WET, compiling. 
+[2015.04.07-17.56.07:130][570]LogMaterial: Missing cached shader map for material Metal_BrushedCopper, compiling. 
+[2015.04.07-17.56.07:465][570]LogTexture:Display: Building textures: Metal_BrushedSteel_2k_n (BC5)
+[2015.04.07-17.56.10:071][570]LogTexture:Display: Building textures: Metal_BrushedSteel_2k_s (AutoDXT)
+[2015.04.07-17.56.27:111][570]LogMaterial: Missing cached shader map for material Metal_BrushedSteel, compiling. 
+[2015.04.07-17.56.27:211][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.LeapController_0) Not registered. Aborting.
+[2015.04.07-17.56.27:317][570]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.04.07-17.56.39:081][570]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.04.07-17.56.40:050][570]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.04.07-17.56.46:421][570]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000010BC35120
+[2015.04.07-17.56.46:597][571]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Materials/wood_JFfantasyWoodPlanksNailedClean.uasset"'
+[2015.04.07-17.56.46:628][572]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.04.07-17.56.46:628][572]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Alejandro/Documents/Game Making/Unreal/EndlessFlyer/Content/GTFreeMaterials/Showcase.umap"'
+[2015.04.07-17.56.46:690][574]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.04.07-17.58.37:781][473]LogTexture:Display: Building textures: Metal_Gold_2k_s (Aut
